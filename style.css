@@ -4,6 +4,7 @@
     height:600px;
     overflow: hidden;
     margin: 0 auto;
+	position: relative;
 }
 
 #carousel ul {
@@ -24,6 +25,19 @@
 	height: 600px;
 	background-size: cover;
 }
-.left, .right {
-    text-align:center;
+.buttons {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	cursor: poiner;
 }
+.container {
+	position:relative;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	
+}
+ 
